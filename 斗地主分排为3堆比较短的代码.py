@@ -20,7 +20,7 @@ while c:
     c.remove(randomCard)
     count+=1
     while count == 17:    
-        print(L)
-        print(c[0:17])
-        print(c[17:37])
+        print('农民1\n',L)
+        print('农民2\n',c[0:17])
+        print('地主\n',c[17:37])
         break
